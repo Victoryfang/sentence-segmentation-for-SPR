@@ -1,6 +1,6 @@
 import nltk
 
-lst=list(open('yes.txt')) # This is to import txt file
+lst=list(open('yes.txt')) # This is to read in txt file
 
 for i in range(len(lst)):
     lst[i]=lst[i].replace('\n','') # This is to remove \n
